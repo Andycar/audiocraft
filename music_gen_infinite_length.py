@@ -196,7 +196,7 @@ def ui(**kwargs):
         password = kwargs.get('password')
         server_port = kwargs.get('server_port', 0)
         inbrowser = kwargs.get('inbrowser', False)
-        share = kwargs.get('share', False)
+        share = kwargs.get('share', True)
         server_name = kwargs.get('listen')
 
         launch_kwargs['server_name'] = server_name
